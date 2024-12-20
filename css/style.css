@@ -68,6 +68,14 @@ p {
   transition: 0.5s;
 }
 
+.logo {
+  width: 100px;
+}
+
+.logo img{
+  width: 100%;
+}
+
 .social_media i:hover {
   border: 2px solid #fff;
   color: white;
