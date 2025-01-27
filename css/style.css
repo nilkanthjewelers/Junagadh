@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Urbanist', sans-serif;
 }
@@ -30,7 +34,7 @@ p {
   line-height: 25px;
 }
 
-/*-----------head---------*/
+/*-----------head start---------*/
 .head {
   position: relative;
   z-index: 10;
@@ -72,7 +76,7 @@ p {
   width: 100px;
 }
 
-.logo img{
+.logo img {
   width: 100%;
 }
 
@@ -81,8 +85,10 @@ p {
   color: white;
 }
 
-/*-----------head---------*/
-/*-----------header---------*/
+/*-----------head end---------*/
+
+
+/*-----------header start---------*/
 .sidenav {
   height: 100%;
   width: 0;
@@ -133,8 +139,10 @@ p {
   display: inherit;
 }
 
-/*-----------header---------*/
-/*-----------home---------*/
+/*-----------header end---------*/
+
+
+/*-----------home start---------*/
 .home img {
   position: absolute;
   top: 0;
@@ -198,8 +206,10 @@ button:hover {
   color: #4D8B55;
 }
 
-/*-----------home---------*/
-/*-----------menu---------*/
+/*-----------home end---------*/
+
+
+/*-----------menu start---------*/
 .top {
   margin-top: 10%;
 }
@@ -233,8 +243,10 @@ button:hover {
   margin-bottom: 20px;
 }
 
-/*-----------menu---------*/
-/*-----------wrapper---------*/
+/*-----------menu end---------*/
+
+
+/*-----------wrapper start---------*/
 .heading2 h1 {
   font-size: 80px;
   font-weight: 800;
@@ -242,7 +254,8 @@ button:hover {
   color: white;
 }
 
-.left, .right {
+.left,
+.right {
   width: 50%;
   margin: 20px;
 }
@@ -290,8 +303,11 @@ button:hover {
   color: black;
 }
 
-/*-----------wrapper---------*/
-/*-----------list---------*/
+/*-----------wrapper end---------*/
+
+
+
+/*-----------list start---------*/
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -321,8 +337,9 @@ button:hover {
   border: none;
 }
 
-/*-----------list---------*/
-/*-----------menu_list---------*/
+/*-----------list end---------*/
+
+/*-----------menu_list start---------*/
 .menu_list .heading {
   text-align: center;
 }
@@ -355,8 +372,11 @@ button:hover {
   margin-top: 20px;
 }
 
-/*-----------menu_list---------*/
-/*-----------opentime---------*/
+/*-----------menu_list end---------*/
+
+
+
+/*-----------opentime start---------*/
 .opentime {
   height: 120vh;
 }
@@ -463,8 +483,11 @@ button:hover {
   color: black;
 }
 
-/*-----------opentime---------*/
-/*-----------product---------*/
+/*-----------opentime end---------*/
+
+
+
+/*-----------product start---------*/
 .product {
   text-align: center;
   padding: 50px;
@@ -501,8 +524,10 @@ button:hover {
   color: #4D8B55;
 }
 
-/*-----------product---------*/
-/*-----------customer---------*/
+/*-----------product end ---------*/
+
+
+/*-----------customer start---------*/
 .customer {
   background-image: url("../image/w2.jpg");
 }
@@ -554,7 +579,8 @@ button:hover {
   color: white;
 }
 
-.owl-prev, .owl-next {
+.owl-prev,
+.owl-next {
   position: absolute;
   top: 50%;
 }
@@ -567,8 +593,11 @@ button:hover {
   right: -10%;
 }
 
-/*-----------customer---------*/
-/*-----------brand---------*/
+/*-----------customer end---------*/
+
+
+
+/*-----------brand start---------*/
 .brand {
   background: #F2F1ED;
   padding-top: 50px;
@@ -661,8 +690,10 @@ button:hover {
   color: #4D8B55;
 }
 
-/*-----------blog---------*/
-/*-----------image---------*/
+/*-----------blog end---------*/
+
+
+/*-----------image start---------*/
 .image .grid {
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 0;
@@ -708,8 +739,11 @@ button:hover {
   opacity: 1;
 }
 
-/*-----------image---------*/
-/*-----------footer---------*/
+/*-----------image end---------*/
+
+
+
+/*-----------footer start---------*/
 footer {
   background-image: url("../image/w2.jpg");
   background-position: center;
@@ -794,7 +828,9 @@ footer .submit {
   padding: 30px 0px 30px 80px;
 }
 
-/*-----------footer---------*/
+/*-----------footer end---------*/
+
+
 @media (max-width:768px) {
 
   /*----------------head---------*/
@@ -817,7 +853,8 @@ footer .submit {
 
   /*----------------menu---------*/
   /*----------------wrapper---------*/
-  .left, .right {
+  .left,
+  .right {
     width: 100%;
   }
 
